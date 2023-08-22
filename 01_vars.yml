@@ -43,7 +43,7 @@
         service: http
         permanent: true
         state: enabled
-        notify: Firewall reload
+      notify: Firewall reload
 
   handlers:
     - name: Firewall reload
