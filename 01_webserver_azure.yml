@@ -1,10 +1,10 @@
 ---
 - name: Configure Webserver
-  hosts: tag_solution_webserver_jesbe
+  hosts: tag_solution_webserver_lalana
   become: true
   vars:
     websiteheader: "Ansible Playbook"
-    websiteauthor: "Jesper Berth"
+    websiteauthor: "Lalana Hammer"
 
   tasks:
     - name: Install Apache
