@@ -26,4 +26,3 @@
     - name: Show Status
       ansible.builtin.debug:
         var: httpd_status
-        
