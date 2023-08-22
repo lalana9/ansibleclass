@@ -4,7 +4,11 @@
   become: true
 
   vars:
-    package: httpd
+    package:
+      - httpd
+      - mariadb-server
+      - php
+      - php-mysqlnd
 
   tasks:
     - name: Install Packages
