@@ -11,4 +11,3 @@
       ansible.builtin.package:
         name: "{{ package }}"
         state: present
-        
