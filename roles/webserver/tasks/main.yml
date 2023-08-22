@@ -19,3 +19,4 @@
     permanent: true
     state: enabled
   notify: Firewall reload
+
