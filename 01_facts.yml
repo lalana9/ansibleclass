@@ -1,6 +1,6 @@
 ---
 - name: Facts
-  hosts: all
+  hosts: linuxservers
 
   tasks:
     - name: Debug Facts
